@@ -1,0 +1,26 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.uk-label {
+    font-size: 0.725rem;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.uk-container-small {
+    max-width: 48em;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 15px;
+}
+textarea {
+    width: 300px;
+    height: 150px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Email Address Extractor</title>
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.3/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+    <div class="uk-container uk-container-small uk-section">
+        <div>
+            <h1><strong><span class="uk-text-primary">Email</span> Extractor</strong></h1>
+        </div>
+
+        <hr>
+        <div class="uk-alert uk-alert-primary uk-padding"><b>ABOUT:</b> Email Extractor is a simple little tool that will help you find email addresses hidden in a content.
+        </div>
+        <form class="uk-form-stacked">
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-stacked-text">Enter the text or content</label>
+                <div class="uk-form-controls">
+                    <textarea class="uk-textarea" row="5" id="content" placeholder="Copy or Paste the text here"></textarea>
+                </div>
+            </div>
+            <div class="uk-margin">
+                <button type="button" class="uk-button uk-button-primary" id="submit">Extract Email</button>
+                <button type="button" class="uk-button uk-button-default" id="copy">Copy to Clipboard</button>
+            </div>
+        </form>
+        
+        <div class="footer">
+            <a href="https://saweria.co/donate/kol4k" target="_blank" class="uk-button uk-button-danger"><span uk-icon="happy"></span> BUY ME A COFFEE</a>
+            <a href="https://github.com/zzseba78/Kick-Off" target="_blank" class="uk-button uk-button-secondary"><span uk-icon="github"></span> SEE THE CODE ON GITHUB</a>
+        </div>
+    </div>
+
+    <!-- JS FILES -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.3/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
